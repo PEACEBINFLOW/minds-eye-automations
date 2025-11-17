@@ -1,0 +1,40 @@
+{
+  "name": "minds-eye-automations",
+  "version": "0.1.0",
+  "description": "Automation layer for the Google-native Mind's Eye OS. Runs scheduled tasks, sync jobs, Apps Script triggers, Pub/Sub handlers, and Cloud Run workflows for event ingestion, summaries, and LAW-T updates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "mindseye",
+    "minds-eye",
+    "automations",
+    "cron",
+    "cloud-run",
+    "pubsub",
+    "google-workspace",
+    "apps-script",
+    "event-ingestion",
+    "law-t",
+    "agentic-os",
+    "typescript",
+    "sageworks-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^134.0.0",
+    "@google-cloud/pubsub": "^4.0.0",
+    "@google-cloud/scheduler": "^3.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
